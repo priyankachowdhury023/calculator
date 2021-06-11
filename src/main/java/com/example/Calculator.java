@@ -55,7 +55,7 @@ public class Calculator extends HttpServlet {
           out.println("</html>");  
         }
         
-        cach(Exception e)
+        catch(Exception e)
         {
             System.out.println("In  exception");
         }
